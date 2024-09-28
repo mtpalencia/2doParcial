@@ -1,0 +1,43 @@
+/* Fondo oscuro moderno */
+body {
+    background-color: #1b1b1b;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+/* Tarjeta del temporizador */
+.card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para los números del temporizador*/
+.digital-clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    color: #d3d3d3; 
+    text-shadow: 0 0 5px #d3d3d3, 0 0 10px #d3d3d3;
+}
+
+/* Botones */
+.btn {
+    width: 100px;
+}
+
+/* Estilo para la lista de intervalos */
+#interval-list {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-top: 10px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Estilo para los elementos de la lista */
+.list-group-item {
+    background-color: #555;
+    color: #fff;
+    border: none;
+}
